@@ -1115,3 +1115,43 @@ section
 {
 	margin-right: 0px;
 }
+
+.titleView{
+	font-weight: 'bold';
+	color: 'black';
+	text-align: 'center';
+	padding: 10;
+	margin-bottom: 70px;
+	font-size: 30px;
+}
+.note{
+	color: green;
+	font-weight: bold;
+	text-align: left;
+	font-size: 20px;
+}
+.nigeria-decides{
+	font-size: 20px;
+	text-align: center;
+}
+
+.decide{
+	font-weight: 'bold';
+	color: green;
+	font-size: 40px;
+	padding: 10px;
+	margin: 20px;
+	text-align: center;
+	background-color: white
+}
+
+.standwith{
+	font-weight: 'bold';
+	color: white;
+	text-align: 'center';
+	font-size: 20px;
+	padding: 10px;
+	margin: 30px;
+	background-color: green;
+	border-radius: 5;
+}
