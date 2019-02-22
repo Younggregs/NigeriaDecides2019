@@ -83,6 +83,9 @@
 <script src="plugins/easing/easing.js"></script>
 <script src="js/teachers_custom.js"></script>
 <script>
+	if(localStorage.getItem("candidate") && localStorage.getItem("picture")){
+		window.location.replace("main.html");
+	}
 	function setPicture(){
 
 		if(document.getElementById('picture').value){
@@ -90,7 +93,7 @@
 			var imgFullURL = document.querySelector('img#picture').src;
 			
 
-			window.location.replace("home.html");
+			window.location.replace("main.html");
 		}else{
 			var imgFullURL = document.querySelector('img#picture').src;
 			
