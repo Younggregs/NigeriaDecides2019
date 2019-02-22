@@ -242,7 +242,10 @@
 		}else{}
 		
 
-		document.getElementById("result").innerHTML = "I Stand With " + localStorage.getItem("candidate");
+		if(localStorage.getItem != null){
+			document.getElementById("result").innerHTML = "I Stand With " + localStorage.getItem("candidate");
+		}else{}
+		
 	} else {
 		  document.getElementById("result").innerHTML = "I Stand With...";
 	}
