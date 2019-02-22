@@ -34,7 +34,9 @@
 		<div class="hamburger_container">
 			<i class="fas fa-bars trans_200"></i>
 		</div>
+
 	</header>
+	
 
 
 	<div class="home">
@@ -46,16 +48,150 @@
 		</div>
 	</div>
 
-	<div>
-		<h1 id="result">Upload a picture of you to continue</h1>
+	<div class="titleView">
+		Who do you stand with in the 2019 elections?<br />
+		#TakeAStand on #NigeriaDecides2019.<br />
+		Don't sit on the fence.
 	</div>
-	<div>
-		<input type="file" id="picture" name="pic" accept="image/*">
-		<input type="submit" value="continue" onclick="setPicture();">
-		<div class="error"></div>
+	<div class="note">
+		NB: Your stand will only count if you share your position successfully on twitter. No coded
+		support here
+	</div>
 
+	<div id="MyElement">
+
+	<!-- Teachers -->
+
+	<div class="teachers page_section">
+		<div class="container">
+			<div class="row">
+				
+				<!-- Teacher -->
+				<div class="col-lg-6 teacher">
+					<div class="card">
+						<div class="card_img">
+							
+							<img class="card-img-top trans_200" src="images/Atiku.jpg" alt="https://unsplash.com/@michaeldam">
+						</div>
+						<div class="card-body text-center">
+							<div class="card-title">Atiku Abubakar</div>
+							<div class="card-text">PDP Candidate</div>
+							
+							<div class="home_content">
+								<a onclick="setCandidate('Atiku');" class="twitter-share-button"
+								href="https://twitter.com/intent/tweet?text=%23NigeriaDecides2019%23TakeAStand%20I%20Stand%20With%20Atiku%20%40atiku%20Who%20do%20you%20stand%20with%3F%20visit%20https%3A%2F%2Fnigeriadecides2019.herokuapp.com%2F%20:%20pic.twitter.com/nCsdiEGRW0">
+								Tweet to vote for Atiku</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Teacher -->
+				
+				<div class="col-lg-6 teacher">
+					<div class="card">
+						<div class="card_img">
+							
+							<img class="card-img-top trans_200" src="images/buhari2.jpg" alt="https://unsplash.com/@jcpeacock">
+						</div>
+						<div class="card-body text-center">
+							<div class="card-title">Buhari</div>
+							<div class="card-text">APC</div>
+							<div class="home_content">
+							<a onclick="setCandidate('Buhari');" class="twitter-share-button"
+							href="https://twitter.com/intent/tweet?text=%23NigeriaDecides2019%23TakeAStand%20%I%20Stand%20With%20Buhari%20%40MBuhari%20Who%20do%20you%20stand%20with%3F%20visit%20https%3A%2F%2Fnigeriadecides2019.herokuapp.com%2F%20:%20pic.twitter.com/NuVhFRqSX">
+								Tweet to vote for Buhari</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Teacher -->
+				<div class="col-lg-6 teacher">
+					<div class="card">
+						<div class="card_img">
+							
+							<img class="card-img-top trans_200" src="images/Moghalu.jpeg" alt="https://unsplash.com/photos/n8jeOSxCRfQ">
+						</div>
+						<div class="card-body text-center">
+							<div class="card-title">Moghalu</div>
+							<div class="card-text">YPP Candidate</div>
+							<div class="home_content">
+							<a onclick="setCandidate('Moghalu');"class="twitter-share-button"
+							href="https://twitter.com/intent/tweet?text=%23NigeriaDecides2019%23TakeAStand%20I%20Stand%20With%20Moghalu%20%40MoghaluKingsley%20Who%20do%20you%20stand%20with%3F%20visit%20https%3A%2F%2Fnigeriadecides2019.herokuapp.com%2F%20:%20pic.twitter.com/9YbRMGpWYm">
+								Tweet to vote for Moghalu</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Teacher -->
+				<div class="col-lg-6 teacher">
+					<div class="card">
+						<div class="card_img">
+							
+							<img class="card-img-top trans_200" src="images/Sowore.jpg" alt="https://unsplash.com/@seteales">
+						</div>
+						<div class="card-body text-center">
+							<div class="card-title">Sowore</div>
+							<div class="card-text">AAC Candidate</div>
+							<div class="home_content">
+							<a onclick="setCandidate('Sowore');" class="twitter-share-button"
+							href="https://twitter.com/intent/tweet?text=%23NigeriaDecides2019%23TakeAStand%20I%20Stand%20With%20Sowore%20%40YeleSowore%20Who%20do%20you%20stand%20with%3F%20visit%20https%3A%2F%2Fnigeriadecides2019.herokuapp.com%2F%20:%20pic.twitter.com/H1WQGM674J">
+								Tweet to vote for Sowore</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Teacher -->
+				<div class="col-lg-6 teacher">
+					<div class="card">
+						<div class="card_img">
+							
+							<img class="card-img-top trans_200" src="images/fela.jpg" alt="https://unsplash.com/@seteales">
+						</div>
+						<div class="card-body text-center">
+							<div class="card-title">Durotoye</div>
+							<div class="card-text">ANN Candidate</div>
+							<div class="home_content">
+							<a onclick="setCandidate('Durotoye');" class="twitter-share-button"
+							href="https://twitter.com/intent/tweet?text=%23NigeriaDecides2019%23TakeAStand%20I%20Stand%20With%20Durotoye%20%40feladurotoye%20Who%20do%20you%20stand%20with%3F%20visit%20https%3A%2F%2Fnigeriadecides2019.herokuapp.com%2F%20:%20pic.twitter.com/5Il7mPrjxD">
+								Tweet to vote for Durotoye</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Teacher -->
+				<div class="col-lg-6 teacher">
+					<div class="card">
+						<div class="card_img">
+							
+							<img class="card-img-top trans_200" src="images/none.jpg" alt="https://unsplash.com/@jaredsluyter">
+						</div>
+						<div class="card-body text-center">
+							<div class="card-title">None</div>
+							<div class="card-text">No candidate</div>
+							<div class="home_content">
+							<a onclick="setCandidate('No one');" class="twitter-share-button card-title" 
+							href="https://twitter.com/intent/tweet?text=%23NigeriaDecides2019%23TakeAStand%20I%20Stand%20With%20No%20one%20%40NoCandidate%20%Who%20do%20you%20stand%20with%3F%20visit%20https%3A%2F%2Fnigeriadecides2019.herokuapp.com%2F%20:%20pic.twitter.com/LBW8EP8gQx">
+								Tweet to stand with no one</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+			</div><!-- myElement-->>
+
+			</div>
+		</div>
 	</div>
-	
+
+
 
 		<footer class="footer">
 			<div class="footer_bar d-flex flex-column flex-sm-row align-items-center">
@@ -82,24 +218,63 @@
 <script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
 <script src="plugins/easing/easing.js"></script>
 <script src="js/teachers_custom.js"></script>
+<script src="html2canvas.js"></script>
 <script>
-	if(localStorage.getItem("candidate") && localStorage.getItem("picture")){
-		window.location.replace("main.html?picure=" + localStorage.getItem("picture"));
-	}
-	function setPicture(){
+	haveVoted();
 
-		if(document.getElementById('picture').value){
-			localStorage.setItem("picture", document.getElementById('picture'));
-			
-			
-
-			window.location.replace("main.html?picture=" + localStorage.getItem("picture"));
-		}else{
-			var imgFullURL = document.querySelector('img#picture').src;
-			
-			document.getElementById("error").innerHTML = "Please enter a valid image ";
-		}
+	function setCandidate(candidate){
+		localStorage.setItem("candidate", candidate);
+		alert("Your Vote Counts!");
 	}
+
+	if (typeof(Storage) !== "undefined") {
+		if(localStorage.getItem("candidate") == 'Buhari'){
+			document.getElementById("MyElement").innerHTML =
+		'<div class="col-lg-6"><div class="nigeria-decides" id="nigeria-decides" crossOrigin="Anonymous"><div class="decide"></span>#NigeriaDecides2019</span></div><div class="standwith"><span id="result">I Stand With Buhari</span></div><div class="card"><div class="card_img"><div class="card-body text-center"><div class="card-text">Buhari</div><div class="card-text">APC Candidate</div></div><div class="row"><div class="col-lg-6 col-md-6 col-sm-6 teacher"><img  id="myPicture" class="card-img-top trans_200" src="images/icon.jpg" alt="picture of you"></div><div class="col-lg-6  col-md-6 col-sm-6 teacher"><img class="card-img-top trans_200" src="images/buhari2.jpg" alt="pic of Buhari"></div></div></div></div></div></div>';
+		}else if(localStorage.getItem("candidate") == 'Atiku'){
+			document.getElementById("MyElement").innerHTML =
+			'<div class="col-lg-6"><div class="nigeria-decides" id="nigeria-decides" crossOrigin="Anonymous"><div class="decide"></span>#NigeriaDecides2019</span></div><div class="standwith"><span id="result">I Stand With Atiku</span></div><div class="card"><div class="card_img"><div class="card-body text-center"><div class="card-text">Atiku</div><div class="card-text">PDP Candidate</div></div><div class="row"><div class="col-lg-6 col-md-6 col-sm-6 teacher"><img  id="myPicture" class="card-img-top trans_200" src="images/icon.jpg" alt="picture of you"></div><div class="col-lg-6  col-md-6 col-sm-6 teacher"><img class="card-img-top trans_200" src="images/Atiku.jpg" alt="pic of Atiku"></div></div></div></div></div></div>';
+		}else if(localStorage.getItem("candidate") == 'Moghalu'){
+			document.getElementById("MyElement").innerHTML =
+			'<div class="col-lg-6 col-lg-offset-3 teacher"><div class="card"><div class="card_img">	<img class="card-img-top trans_200" src="images/Moghalu.jpeg" alt="https://unsplash.com/@jcpeacock"></div><div class="card-body text-center"><div class="card-title">Moghalu</div><div class="card-text">YPP Candidate</div></div></div></div>';
+		}else if(localStorage.getItem("candidate") == 'Sowore'){
+			document.getElementById("MyElement").innerHTML =
+			'<div class="col-lg-6"><div class="nigeria-decides" id="nigeria-decides" crossOrigin="Anonymous"><div class="decide"></span>#NigeriaDecides2019</span></div><div class="standwith"><span id="result">I Stand With Moghalu</span></div><div class="card"><div class="card_img"><div class="card-body text-center"><div class="card-text">Moghalu</div><div class="card-text">YPP Candidate</div></div><div class="row"><div class="col-lg-6 col-md-6 col-sm-6 teacher"><img  id="myPicture" class="card-img-top trans_200" src="images/icon.jpg" alt="picture of you"></div><div class="col-lg-6  col-md-6 col-sm-6 teacher"><img class="card-img-top trans_200" src="images/Moghalu.jpeg" alt="pic of Moghalu"></div></div></div></div></div></div>';
+		}else if(localStorage.getItem("candidate") == 'Sowore'){
+			document.getElementById("MyElement").innerHTML =
+			'<div class="col-lg-6"><div class="nigeria-decides" id="nigeria-decides" crossOrigin="Anonymous"><div class="decide"></span>#NigeriaDecides2019</span></div><div class="standwith"><span id="result">I Stand With Sowore</span></div><div class="card"><div class="card_img"><div class="card-body text-center"><div class="card-text">Sowore</div><div class="card-text">AAC Candidate</div></div><div class="row"><div class="col-lg-6 col-md-6 col-sm-6 teacher"><img  id="myPicture" class="card-img-top trans_200" src="images/icon.jpg" alt="picture of you"></div><div class="col-lg-6  col-md-6 col-sm-6 teacher"><img class="card-img-top trans_200" src="images/Sowore.jpg" alt="pic of Sowore"></div></div></div></div></div></div>';
+		}else if(localStorage.getItem("candidate") == 'Durotoye'){
+			document.getElementById("MyElement").innerHTML =
+			'<div class="col-lg-6"><div class="nigeria-decides" id="nigeria-decides" crossOrigin="Anonymous"><div class="decide"></span>#NigeriaDecides2019</span></div><div class="standwith"><span id="result">I Stand With Durotoye</span></div><div class="card"><div class="card_img"><div class="card-body text-center"><div class="card-text">Moghalu</div><div class="card-text">YPP Candidate</div></div><div class="row"><div class="col-lg-6 col-md-6 col-sm-6 teacher"><img  id="myPicture" class="card-img-top trans_200" src="images/icon.jpg" alt="picture of you"></div><div class="col-lg-6  col-md-6 col-sm-6 teacher"><img class="card-img-top trans_200" src="images/fela.jpg" alt="pic of Durotoye"></div></div></div></div></div></div>';
+		}else if(localStorage.getItem("candidate") == 'none'){
+			document.getElementById("MyElement").innerHTML =
+			'<div class="col-lg-6"><div class="nigeria-decides" id="nigeria-decides" crossOrigin="Anonymous"><div class="decide"></span>#NigeriaDecides2019</span></div><div class="standwith"><span id="result">I Stand With no one</span></div><div class="card"><div class="card_img"><div class="card-body text-center"><div class="card-text">None</div><div class="card-text">No Candidate</div></div><div class="row"><div class="col-lg-6 col-md-6 col-sm-6 teacher"><img  id="myPicture" class="card-img-top trans_200" src="images/icon.jpg" alt="picture of you"></div><div class="col-lg-6  col-md-6 col-sm-6 teacher"><img class="card-img-top trans_200" src="images/none.jpg" alt="pic of none"></div></div></div></div></div></div>';
+		}else{}
+		
+
+		if(localStorage.getItem !== undefined && localStorage.getItem('candidate')){
+			document.getElementById("result").innerHTML = "I Stand With " + localStorage.getItem("candidate");
+			
+			var queryString = decodeURIComponent(window.location.search);
+
+			document.getElementById('myPicture').src = queryString
+		  alert(localStorage.getItem('picture').value)
+		}else{}
+		
+	} else {
+		  document.getElementById("result").innerHTML = "I Stand With...";
+	}
+
+
+
+html2canvas(document.querySelector("#nigeria-decides")).then(canvas => {
+	var image = new Image();
+	image.crossOrigin = "Anonymous";
+	  
+	var image = canvas.toDataURL("image/png");
+});
+
 </script>
+
 </body>
 </html>
