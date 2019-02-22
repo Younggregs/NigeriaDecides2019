@@ -227,13 +227,6 @@
 		alert("Your Vote Counts!");
 	}
 
-	function haveVoted(){
-		if (typeof(Storage) !== "undefined"){
-			document.getElementById("MyElement").classList.remove('home_content');	
-		 }
-		else {}
-}
-
 	if (typeof(Storage) !== "undefined") {
 		if(localStorage.getItem("candidate") == 'Buhari'){
 			document.getElementById("MyElement").innerHTML =
@@ -253,10 +246,10 @@
 		}else if(localStorage.getItem("candidate") == 'Durotoye'){
 			document.getElementById("MyElement").innerHTML =
 			'<div class="col-lg-6"><div class="nigeria-decides" id="nigeria-decides" crossOrigin="Anonymous"><div class="decide"></span>#NigeriaDecides2019</span></div><div class="standwith"><span id="result">I Stand With Durotoye</span></div><div class="card"><div class="card_img"><div class="card-body text-center"><div class="card-text">Moghalu</div><div class="card-text">YPP Candidate</div></div><div class="row"><div class="col-lg-6 col-md-6 col-sm-6 teacher"><img  id="myPicture" class="card-img-top trans_200" src="images/icon.jpg" alt="picture of you"></div><div class="col-lg-6  col-md-6 col-sm-6 teacher"><img class="card-img-top trans_200" src="images/fela.jpg" alt="pic of Durotoye"></div></div></div></div></div></div>';
-		}else{
+		}else if(localStorage.getItem("candidate") == 'none'){
 			document.getElementById("MyElement").innerHTML =
 			'<div class="col-lg-6"><div class="nigeria-decides" id="nigeria-decides" crossOrigin="Anonymous"><div class="decide"></span>#NigeriaDecides2019</span></div><div class="standwith"><span id="result">I Stand With no one</span></div><div class="card"><div class="card_img"><div class="card-body text-center"><div class="card-text">None</div><div class="card-text">No Candidate</div></div><div class="row"><div class="col-lg-6 col-md-6 col-sm-6 teacher"><img  id="myPicture" class="card-img-top trans_200" src="images/icon.jpg" alt="picture of you"></div><div class="col-lg-6  col-md-6 col-sm-6 teacher"><img class="card-img-top trans_200" src="images/none.jpg" alt="pic of none"></div></div></div></div></div></div>';
-		}
+		}else{}
 		
 
 		if(localStorage.getItem !== undefined && localStorage.getItem('candidate')){
