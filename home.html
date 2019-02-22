@@ -84,16 +84,16 @@
 <script src="js/teachers_custom.js"></script>
 <script>
 	if(localStorage.getItem("candidate") && localStorage.getItem("picture")){
-		window.location.replace("main.html");
+		window.location.replace("main.html?picure=" + localStorage.getItem("picture"));
 	}
 	function setPicture(){
 
 		if(document.getElementById('picture').value){
 			localStorage.setItem("picture", document.getElementById('picture'));
-			var imgFullURL = document.querySelector('img#picture').src;
+			
 			
 
-			window.location.replace("main.html");
+			window.location.replace("main.html?picture=" + localStorage.getItem("picture"));
 		}else{
 			var imgFullURL = document.querySelector('img#picture').src;
 			
